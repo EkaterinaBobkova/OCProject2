@@ -107,15 +107,7 @@ header p span{
 }
 
 
-aside{
 
-    background-color: #64B5F6;
-    font-size: 1em;
-    width:20vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 article{
 
@@ -167,14 +159,17 @@ article p {
 
 /*Aside*/
 
-aside {
-	display: flex;
+.side{
+
+    background-color: #64B5F6;
+    font-size: 1em;
+    width:20vw;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    justify-content: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-
 
 li span
 {
@@ -218,26 +213,31 @@ aside section p {
 .loisirs
 {
     display: flex;
-    
+    width: 100%;
     flex-direction: column;
-    margin-top: 320px;
-
-    justify-content: center;
-    align-items: center;
-
-
+    margin-top: 480px;
+     
+    align-self: flex-end;
+  
     background-color: #64B5F6;
 }
 
 
 
-.loisirs .fas{
+.icones {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+
+}
+.icones .fas
+{
     font-size: 3em;
     border:2px white solid;
     padding: 9px;
     border-radius:50%;
     color:white;
-
 }
 
 
@@ -337,6 +337,9 @@ header div:nth-child(2){
 
 /*ASIDE*/
 
+.side{
+    width: 100%;
+}
 .sidebar
 {
     width: 100%;
@@ -406,6 +409,11 @@ address
 .sidebar
 {
     font-size: 1.2em;
+}
+
+.loisirs
+{
+margin-top: 650px;
 }
 .loisirs .fas{
     font-size: 1.2em;
