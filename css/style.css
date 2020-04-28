@@ -382,7 +382,7 @@ address
     and (max-width:991px){
   
     .container {
-    max-width: 660px;
+    max-width: 680px;
   }
     header {
 
@@ -404,7 +404,7 @@ img{
     font-size: 1.3em;
 }
 .loisirs .fas{
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 5px;
     
 }
