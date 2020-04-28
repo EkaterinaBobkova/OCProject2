@@ -397,11 +397,16 @@ img{
     
 }
 
+address
+{
+    width: 100%;
+    
+}
 
 
 .sidebar
 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .loisirs .fas{
     font-size: 1.2em;
