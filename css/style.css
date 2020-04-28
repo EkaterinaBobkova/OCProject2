@@ -303,7 +303,7 @@ aside section p {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 4em;
+        font-size: 3.5em;
     }
     header h1 span{
 
@@ -388,14 +388,27 @@ address
     font-size: 0.7em;
 }
 
-
+.sidebar
+{
+    font-size: 1em;
+}
 address
 {
     width: 100%;
+}
+
+section p
+{
+    font-size: 0.9em;
 }
 .loisirs .fas{
     font-size: 1em;
     
 }
 
+
+.parcours h4
+{
+    font-size: 1em;
+}
 }
