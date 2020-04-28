@@ -378,11 +378,11 @@ address
 }
 
 
-@media screen and (min-width:578px)
+@media screen and (min-width:580px)
     and (max-width:991px){
   
     .container {
-    max-width: 650px;
+    max-width: 660px;
   }
     header {
 
