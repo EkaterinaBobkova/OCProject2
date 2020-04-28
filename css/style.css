@@ -124,10 +124,13 @@ article{
     flex-direction: column;
     width:55vw;
     padding-left: 2vw;
-    
-
-
 }
+
+article p {
+
+    text-align: justify;
+}
+
 
 
 
@@ -299,6 +302,7 @@ aside section p {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 4em;
     }
     header h1 span{
 
@@ -311,7 +315,7 @@ aside section p {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2em;
+        font-size: 2.5em;
 
         
     }
@@ -348,6 +352,10 @@ address
 }
 
 /*ARTICLE*/
+.formation
+{
+    margin-top:15px;
+}
 .parcours h3:nth-child(1), p
 {
    text-align: center;
