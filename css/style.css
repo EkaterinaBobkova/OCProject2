@@ -259,6 +259,7 @@ aside section p {
     border-bottom-color: #64B5F6;
 }
 
+
 .recommandations
 {
     margin-top: 50px;
@@ -359,8 +360,20 @@ address
 .parcours h3:nth-child(1), p
 {
    text-align: center;
+}
+
+.parcours p:nth-child(2)
+{
+  text-align: center;
+  font-size: 1.5em;
 
 }
+
+.mentor p:nth-child(3)
+{
+   text-align: center;
+}
+
 }
 
 
