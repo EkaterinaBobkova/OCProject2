@@ -354,7 +354,7 @@ address
     and (max-width:991px){
   
     .container {
-    max-width: 680px;
+    max-width: 690px;
   }
     header {
 
@@ -365,6 +365,11 @@ img{
 
     height: 140px;
     width:140px;  
+}
+
+.side
+{
+    font-size: 0.9em;
 }
 
 address
@@ -379,7 +384,7 @@ address
 
 .loisirs
 {
-margin-top: 650px;
+margin-top: 710px;
 }
 .loisirs .fas{
     font-size: 1.2em;
