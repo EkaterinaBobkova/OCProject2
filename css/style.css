@@ -230,10 +230,7 @@ article{
     padding: 5px 40px 5px 50px;
 }
 
-.icone-titre
-{
-    font-size: 1.2em;
-}
+
 
 h4
 {
@@ -241,8 +238,9 @@ h4
 }
 .parcours .fas
 {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
+
 
 article p {
 
