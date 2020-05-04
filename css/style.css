@@ -75,6 +75,7 @@ header div:nth-child(2){
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px 40px;
 }
 
 img{
@@ -96,6 +97,7 @@ header h1{
     display: flex;
     align-items: center;
     margin:0;
+    padding-top: 50px;
 }
 
 header h1 span{
@@ -108,6 +110,8 @@ header p{
 
     font-weight: normal;
     font-size: 1.5em;
+    padding-top: 20px;
+
 
 }
 
@@ -139,7 +143,7 @@ address{
 ul
 {
   list-style-type: none;
-  padding-left: 0;
+  padding: 5px 40px 5px 40px;
 }
 
 li span
@@ -161,7 +165,7 @@ a {
 
 aside section p {
 	text-align: justify;
-	padding: 10px;
+    padding: 5px 40px 5px 40px;
 }
 
 .fas{
@@ -199,6 +203,7 @@ aside section p {
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
+    padding: 5px 30px;
 }
 .icones .fas
 {
@@ -218,7 +223,16 @@ article{
     display: flex;
     flex-direction: column;
     width:55vw;
-    padding-left: 2vw;
+}
+
+.parcours 
+{
+    padding: 5px 40px 5px 50px;
+}
+
+.parcours .fas 
+{
+    font-size: 1.2em;
 }
 
 article p {
@@ -350,7 +364,7 @@ address
 }
 
 
-@media screen and (min-width:580px)
+@media screen and (min-width:590px)
     and (max-width:991px){
   
     .container {
@@ -375,6 +389,17 @@ img{
 address
 {
     width: 100%;
+    padding: 0;
+}
+
+ul 
+{
+    padding: 5px 40px;
+    font-size: 0.7em;
+}
+
+aside section p {
+    font-size: 0,5em; 
 }
 
 .sidebar
