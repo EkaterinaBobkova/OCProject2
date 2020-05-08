@@ -3,8 +3,10 @@
 
 @font-face
 {
-    font-family: 'Ma police';
-    src: url ('Solway-Bold.otf');
+    font-family: "Ma police";
+    src: url("fonts/Solway-Bold.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
     }
 
 /*GENERAL*/
@@ -155,9 +157,7 @@ a {
     text-decoration: none;
     color: #212121;
   }
-  a:visited {
-    columns: black;
-  }
+  
   a:hover {
     text-decoration: none;
     color: #FFF;
@@ -406,7 +406,7 @@ ul
 }
 
 aside section p {
-    font-size: 0,5em; 
+    font-size: 0.5em; 
 }
 
 .sidebar
@@ -422,3 +422,4 @@ margin-top: 710px;
     font-size: 1.2em;
     margin-top: 5px;
 }
+    }
